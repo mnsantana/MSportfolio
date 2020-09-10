@@ -1,8 +1,8 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: navy;
+$secondary-color: peachPuff;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
-$background-opacity: 0.9;
+$home-image: url(../img/screen-small.jpg);
+$background-opacity: 0.8;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -33,7 +33,9 @@ $background-opacity: 0.9;
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
     @return #000;
-  } @else {
+  }
+
+  @else {
     @return #fff;
   }
 }
