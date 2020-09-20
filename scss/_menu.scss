@@ -1,15 +1,16 @@
-// Menu Button
+// Menu (hamburguer) Button 
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
-  top: 35px;
+  right: 55px;
+  top: 45px;
   cursor: pointer;
   @include easeOut;
 
+  // hamburguer
   .btn-line {
-    width: 28px;
-    height: 3px;
+    width: 38px;
+    height: 4px;
     margin: 0 0 5px 0;
     background: set-text-color($secondary-color);
     @include easeOut;
@@ -91,7 +92,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/fotoMNSsport.jpg');
+      background: url('../img/portrait.jpg');
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }

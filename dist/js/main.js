@@ -10,6 +10,7 @@ let showMenu = false;
 
 menuBtn.addEventListener('click', toggleMenu);
 
+// Add new classes: close and show
 function toggleMenu() {
   if (!showMenu) {
     menuBtn.classList.add('close');
